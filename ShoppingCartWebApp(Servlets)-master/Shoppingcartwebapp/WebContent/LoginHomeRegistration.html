@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FabGift.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+h1 {
+	vertical-align: baseline;
+	font-weight: 900;
+	font-size: 53px;
+	font-family: fantasy;
+}
+</style>
+</head>
+
+
+
+
+<body style="background-color: azure;">
+	<h1>
+		<span style="margin-right: 5px;"><img alt="logo"
+			style="vertical-align: baseline;" src="images/logo.jpg"></span>FabGift
+	</h1>
+	<!-- menu starts -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="#">GIFTS</a></li>
+				<li><a href="#">CARDS</a></li>
+				<li><a href="#">CHOCOLATES</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+				<li><i class="icon-gift"></i></li>
+
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">CONTACT<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Hyderabad</a></li>
+						<li><a href="#">Delhi</a></li>
+						<li><a href="#">Jaipur</a></li>
+					</ul></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#" data-toggle="modal"
+					data-target="#myModalsignup"><span
+						class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#myModal"><span
+						class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+			</ul>
+		</div>
+	</nav>
+	<!-- menu  ends-->
+
+
+
+
+	<!-- Modal got signup page start-->
+
+	<div class="modal fade" id="myModalsignup" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header" style="padding: 35px 50px;">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4>
+						<span class="glyphicon glyphicon-user"></span> Signup
+					</h4>
+				</div>
+				<div class="modal-body" style="padding: 40px 50px;">
+					<form role="form" class="form-responsive">
+						<div class="form-group">
+							<label for="Fname"> First Name</label> <input type="text"
+								class="form-control" id="fname" required
+								placeholder="Enter First name">
+						</div>
+						<div class="form-group">
+							<label for="Lname"> Last Name</label> <input type="text"
+								class="form-control" id="lname" required
+								placeholder="Enter Last Name">
+						</div>
+						<div class="form-group">
+							<label for="Dob"> Date of Birth</label> <input type="date"
+								class="form-control" id="dob" required
+								placeholder="Enter Date of Birth">
+						</div>
+
+						<div class="form-group">
+							<label for="Email"> Email</label> <input type="email"
+								class="form-control" id="email" required
+								placeholder="Enter email id">
+						</div>
+						<div class="form-group">
+							<label for="password"> Password</label> <input type="password"
+								class="form-control" id="pwd" required
+								placeholder="Enter password">
+						</div>
+						<div class="form-group">
+							<label for="password"> Confirm Password</label> <input
+								type="password" class="form-control" id="pwd" required
+								placeholder="Re-enter password">
+						</div>
+
+						<button type="submit" class="btn btn-success btn-block">
+							<span class="glyphicon glyphicon-off"></span> SignUp
+						</button>
+						<button type="submit" class="btn btn-success btn-block">
+							<span class="glyphicon glyphicon-refresh"></span> Reset
+						</button>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- Modal got signup page ends-->
+
+
+
+	<!-- Modal got login page start-->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header" style="padding: 35px 50px;">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4>
+						<span class="glyphicon glyphicon-lock"></span> Login
+					</h4>
+				</div>
+				<div class="modal-body" name="mbody" style="padding: 40px 50px;">
+
+					<form role="form" action="LoginServlet" method="post"
+						target="#mbody">
+
+						<div class="form-group">
+							<label for="usrname"><span
+								class="glyphicon glyphicon-user"></span> Username</label> <input
+								type="text" class="form-control" id="usrname" name="usrname"
+								required placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="psw"><span
+								class="glyphicon glyphicon-eye-open"></span> Password</label> <input
+								type="text" class="form-control" id="psw" name="psw" required
+								placeholder="Enter password">
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" value="">Remember
+								me</label>
+						</div>
+						<input type="submit" class="btn btn-success btn-block"
+							value="Login"><span class="glyphicon glyphicon-off"></span></input>
+					</form>
+
+				</div>
+				<div class="modal-footer">
+
+					<p>
+						Forgot <a href="#">Password?</a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- Modal got login page ends-->
+
+
+	<footer class="footer">
+		<div class="container">
+			<nav
+				style="background-color: #000000; font-color: #ffffff; text-align: center;"
+				class="navbar navbar-inverse navbar-fixed-bottom">
+				<div class="container-fluid">@Designed and built with all the
+					love in the world by Roopesh.</div>
+			</nav>
+		</div>
+	</footer>
+
+</body>
+
+
+</html>
+
