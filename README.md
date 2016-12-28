@@ -2,6 +2,8 @@
 ## FABGIFT
 
 ### FLOWCHART FOR FABGIFT
+* COMPLETE FLOW CHART
+
  ![screenshot 36](https://cloud.githubusercontent.com/assets/20114431/21516375/9439983c-ccfd-11e6-9d32-e799eea55364.png)
  
  
