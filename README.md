@@ -35,4 +35,7 @@ ___
 ___
 ###DEPENDENCIES USED
 ####BACKEND
+![capture2](https://cloud.githubusercontent.com/assets/20114431/21517644/a2496386-cd06-11e6-8500-b44f1de1f841.JPG)
+
 ####FRONTEND
+![capture3](https://cloud.githubusercontent.com/assets/20114431/21517646/a5ea9d3e-cd06-11e6-84c0-4f3fba572521.JPG)
