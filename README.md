@@ -33,3 +33,6 @@ ___
 ####FRONTEND
 ![capture11](https://cloud.githubusercontent.com/assets/20114431/21517217/2d85013e-cd03-11e6-9c8a-a849eb2f2353.JPG)
 ___
+###DEPENDENCIES USED
+####BACKEND
+####FRONTEND
