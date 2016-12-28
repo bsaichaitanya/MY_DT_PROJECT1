@@ -19,5 +19,7 @@ FABGIFT a responsive E-commerce website with user-friendly web pages. Users can 
 ![screenshot 38](https://cloud.githubusercontent.com/assets/20114431/21516376/9aaf5846-ccfd-11e6-94f2-0affb1053786.png)
 
 ###PROJECT DIRECTORY
+####BACKEND
 ![capture](https://cloud.githubusercontent.com/assets/20114431/21517214/2a94e836-cd03-11e6-928d-2de4b43dc307.JPG)
+####FRONTEND
 ![capture11](https://cloud.githubusercontent.com/assets/20114431/21517217/2d85013e-cd03-11e6-9c8a-a849eb2f2353.JPG)
