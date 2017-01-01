@@ -1,7 +1,7 @@
 # DEVELOPED AN ECOMMERCE WEBSITE USING SPRING AND HIBERNATE
 ___
 ## FABGIFT
-FABGIFT a responsive E-commerce website with user-friendly web pages. Users can find products of his/her choice with help of so many filters.
+FABGIFT is a responsive E-commerce website with user-friendly web pages. Users can find products of his/her choice from a particular category or from a complete product list and can add the selected product to his cart and can buy that product. Used spring security and spring web flow as part of this project
 ___
 
 **Environment:** JDK 1.8.0_101, TomCat 9.0
