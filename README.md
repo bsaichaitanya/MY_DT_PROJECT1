@@ -39,9 +39,19 @@ ___
 
 ####FRONTEND
 ![capture3](https://cloud.githubusercontent.com/assets/20114431/21517646/a5ea9d3e-cd06-11e6-84c0-4f3fba572521.JPG)
-####SCREENSHOTS
+___
+###SCREENSHOTS
+####LOGIN PAGE
+
 ![screenshot 40](https://cloud.githubusercontent.com/assets/20114431/21582583/31a4ce28-d084-11e6-8154-99f141b89e1b.png)
+####HOME PAGE
+
 ![screenshot 41](https://cloud.githubusercontent.com/assets/20114431/21582586/34eb7c6c-d084-11e6-8d4c-031054dd1617.png)
+
+
 ![screenshot 43](https://cloud.githubusercontent.com/assets/20114431/21582587/3ddc46e4-d084-11e6-8b0b-8d197c4431f4.png)
-![screenshot 44](https://cloud.githubusercontent.com/assets/20114431/21582589/45a7f850-d084-11e6-8389-440b7c21d282.png)
+####PRODUCT PAGE
+![screenshot 44](https://cloud.githubusercontent.com/assets/20114431/21582589/45a7f850-d084-11e6-8389-440b7c21d282.png)####LOGIN PAGE
+
+####CART PAGE
 ![screenshot 45](https://cloud.githubusercontent.com/assets/20114431/21582590/48dcde14-d084-11e6-9de8-71a0e4e3c46c.png)
