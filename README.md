@@ -44,6 +44,11 @@ ___
 ####LOGIN PAGE
 
 ![screenshot 40](https://cloud.githubusercontent.com/assets/20114431/21582583/31a4ce28-d084-11e6-8154-99f141b89e1b.png)
+
+####REGISTRATION PAGE
+
+![screenshot 46](https://cloud.githubusercontent.com/assets/20114431/21582623/dc2d1b42-d085-11e6-9ce0-fd8b4351c421.png)
+
 ####HOME PAGE
 
 ![screenshot 41](https://cloud.githubusercontent.com/assets/20114431/21582586/34eb7c6c-d084-11e6-8d4c-031054dd1617.png)
