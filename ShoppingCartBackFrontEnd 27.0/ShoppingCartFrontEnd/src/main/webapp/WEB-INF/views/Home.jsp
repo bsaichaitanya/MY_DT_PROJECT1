@@ -450,9 +450,11 @@ footer {
 					<c:forEach items="${productList}" var="product">
 						<div class="col-md-3 col-sm-6 hero-feature">
 							<div class="thumbnail">
-								<img alt="${product.pro_id}"
+							<a href="<c:url value="p/${product.pro_id}" />">	
+							<img alt="${product.pro_id}"
 									src="<c:url value="${contextPath}/resources/images/${product.pro_id}.jpg" ></c:url>"
-									width="800px" height="500px" />
+									width="800px" height="500px" /></a>
+							
 								<div class="caption">
 
 									<h4>${product.pro_name}</h4>
@@ -461,9 +463,12 @@ footer {
 									</h5>
 									<p>${product.pro_description}</p>
 									<p>
-										<a href="#" class="btn btn-primary">Buy Now!</a> <a
-											href="<c:url value="p/${product.pro_id}" />"
-											class="btn btn-success">More Info</a>
+									<a
+									href="<c:url  value="${contextPath}/addtocart/${product.pro_id}" />">
+										<img src="<c:url value="${contextPath}/resources/images/buttons/addtocart-orange.png" ></c:url>"
+										width="200px" height="60px">
+								</a>
+										 
 									</p>
 								</div>
 							</div>

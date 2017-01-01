@@ -62,7 +62,7 @@ color: red;
 						<li><em>Supplier:</em> <em style="color: #00C4B0"> ${product.supplier.sup_name}</em></li>
 								<li><a
 									href="<c:url  value="${contextPath}/addtocart/${product.pro_id}" />">
-										<img src="E:\PROJECT 1\pics\addtocart-orange.png"
+										<img src="<c:url value="${contextPath}/resources/images/buttons/addtocart-orange.png" ></c:url>"
 										width="200px" height="60px">
 								</a></li>
 					</ul>

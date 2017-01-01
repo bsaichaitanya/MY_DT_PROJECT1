@@ -44,9 +44,8 @@ background-color: #2f4357;
 
 
 	<div >
-	<a href="Home" ><img class="home" 
-	src="E:\workspace\ShoppingCartFrontEnd\src\main\webapp\WEB-INF\images\dock_icon_home_button_by_moa_isa_jediknight.png" 
-	width="150px" height="150px"></a>
+	<a href="Home" ><img src="<c:url value="${contextPath}/resources/images/buttons/dock_icon_home_button_by_moa_isa_jediknight.png" ></c:url>"
+										width="150px" height="150px"></a>
 </div>
 
 	<div class="container">

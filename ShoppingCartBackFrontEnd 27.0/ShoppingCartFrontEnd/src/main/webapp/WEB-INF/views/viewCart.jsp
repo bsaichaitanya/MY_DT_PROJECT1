@@ -108,11 +108,14 @@ function myFunction() {
 						 Grand Total: <span><i class="fa fa-inr" aria-hidden="true"></i>${sum}</span>
 					</h3>
 					<div class="col-md-10">
-						<a href="Home"><img  src="E:\PROJECT 1\pics\Continue Shopping Button.png" width="200px" height="60px"></a>
+						<a href="Home">
+										<img src="<c:url value="${contextPath}/resources/images/buttons/Continue Shopping Button.png" ></c:url>"
+										width="200px" height="60px"></a>
 					</div>
 					<div class="col-md-2">
 						<a 
-							href="checkoutDetails.obj"><img id="buy" src="E:\PROJECT 1\pics\Buy-Now-Button.png" width="200px" height="80px"></a>
+							href="checkoutDetails.obj"><img id="buy" src="<c:url value="${contextPath}/resources/images/buttons/Buy-Now-Button.png" ></c:url>"
+										width="250px" height="80px"></a>
 					</div>
 				</div>
 			</div>
