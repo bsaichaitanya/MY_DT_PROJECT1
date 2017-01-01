@@ -56,7 +56,7 @@ ___
 
 ![screenshot 43](https://cloud.githubusercontent.com/assets/20114431/21582587/3ddc46e4-d084-11e6-8b0b-8d197c4431f4.png)
 ####PRODUCT PAGE
-![screenshot 44](https://cloud.githubusercontent.com/assets/20114431/21582589/45a7f850-d084-11e6-8389-440b7c21d282.png)####LOGIN PAGE
+![screenshot 44](https://cloud.githubusercontent.com/assets/20114431/21582589/45a7f850-d084-11e6-8389-440b7c21d282.png)
 
 ####CART PAGE
 ![screenshot 45](https://cloud.githubusercontent.com/assets/20114431/21582590/48dcde14-d084-11e6-9de8-71a0e4e3c46c.png)
